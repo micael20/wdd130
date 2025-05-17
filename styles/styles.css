@@ -24,6 +24,10 @@ p {
     padding: 10px;
 }
 
+main img {
+    max-width: fit-content;
+    
+}
 
 aside {
     width: 20rem;
