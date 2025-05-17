@@ -1,0 +1,32 @@
+callout { max-width: fit-content;
+    margin: auto;
+    border: 1px solid  rgb(6, 6, 133);
+    padding: 1px;
+    background-color: blue;
+    text-emphasis-color: white;
+	
+}
+
+.callout img {
+    position: float;
+    margin: auto;
+    border: 1px solid rgb(240, 240, 246);
+    background-color: blue;
+    width: 1200px;
+    height: 1200px;
+	
+}
+
+blockquote {
+    margin: auto;
+	
+}
+
+cite {
+    display: flex;
+    border-top: 1px;
+    padding-top: 1px;
+    text-align: center;
+    font-size: medium;
+	
+}
