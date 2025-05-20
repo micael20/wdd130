@@ -25,7 +25,7 @@ p {
 }
 
 main img {
-    max-width: fit-content;
+    max-width: fit-content;   
     width: auto;
 
 }
