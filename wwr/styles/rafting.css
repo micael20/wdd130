@@ -108,7 +108,7 @@ header img {
     flex-wrap: wrap;
     padding: 20px;
     flex-direction: row;
-    justify-self: anchor-center;
+    justify-self: center;
 }
 
 nav a {
