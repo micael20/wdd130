@@ -35,7 +35,11 @@ nav, p, section, article {
 
 .socialmedia {
     text-decoration: none;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
 }
+
 
 .hero {
     position:relative;
@@ -60,9 +64,9 @@ h1 {
 
 article {
     position: absolute;
-    right: 50px;
-    bottom: 2.5px;         /* tuck it up 50px from the bottom of the hero */
-    width: 300px;
+    right: 20px;
+    left: 20px;
+    bottom: 125px;         
     background-color: var(--accent1-color);
     opacity: 0.7;
     color: #fff;
@@ -70,7 +74,7 @@ article {
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0,0,0,0.3);
     display: flex;
-    flex-direction: column;
+    flex-direction: row-reverse;
     align-items: center;
     z-index: 1;  
 
@@ -80,3 +84,94 @@ article {
     float: right;
     width: 125px    ;
 }
+
+
+
+header {
+    margin: 1rem auto;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+    max-width: 1000px;
+}
+
+header img {
+    margin: 0 0.25rem 0 1rem;
+    width: 64px;
+    height: auto;
+
+}
+
+.navigation {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    flex-direction: row;
+    justify-self: anchor-center;
+}
+
+nav a {
+    padding: 20px;
+}
+
+h2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.flex-1 {
+    display: flex;
+    align-items: center;        
+    flex-wrap: nowrap;          
+    justify-content: space-between;
+    gap: 1rem;  
+    flex-direction: row;               
+  }
+
+.flex-1 img {
+    width: 300px;
+    flex-shrink: 0;
+}
+
+.flex-1 p:first-of-type {
+    order: 1;
+    flex: 1 1 auto;
+}
+
+.flex-1 img {
+    order: 2;
+}
+
+.flex-1 p:last-of-type {
+    order: 3;
+    flex: 1 1 auto;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+    padding: 1rem;
+}
+  
+.gallery img {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;   
+    border-radius: 4px;  
+}
+  
+.gallery figcaption {
+    text-align: center;
+    font-size: 0.9rem;
+    margin-top: 0.5rem;
+    color: var(--accent1-color);
+}
+
+
+
+  
