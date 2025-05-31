@@ -1,11 +1,12 @@
 :root {
-    --primary-color: #00E8FC; /*Electric Blue */
-    --secondary-color: #F9C846; /* Saffron */
-    --accent1-color: #F96E46;  /* Burnt Sienna*/
-    --accent2-color: #FFFFFF;  /* White */
+    --primary-color: #009DB0;   /* Accessible Deep Cyan */
+    --secondary-color: #D4A415; /* Golden Mustard */
+    --accent1-color: #C6522B;   /* Sienna Brown */
+    --accent2-color: #FFFFFF;   /* White */
     --heading-font: "Righteous", sans-serif;
     --body-font: "Lato", sans-serif;
-}
+ }
+      
 
 * {
     margin: 0;
