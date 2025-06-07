@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Week-05 | forms</title>
+        <meta name="description" content="A common layout example of the forms">
+        <meta name="author" content="Michael Mwidete">
+
+        <link rel="stylesheet" href="poll-form.css">
+    </head>
+    <body>
+        <haeder>
+            <h1>WDD 130 | HTML Form-User Poll</h1>
+        </haeder>
+        <main>
+            <form>
+                <fieldset>
+                    <legend>Contact Information</legend>
+                    <label for="fullname">Full Name: </label>
+                    <input type="text" id="fullname" name="fullname"><br>
+                    <label for="useremail">Email: </label>
+                    <input type="email" id="useremail" name="useremail">
+                </fieldset>
+                <fieldset>
+                    <legend>Questions</legend>
+                    <label for="browser?">What is your favorite internet browser?</label>
+                    <select id="browser?" name="browser?">
+                        <option value="Chrome"></option>
+                        <option value="Firefox"></option>
+                        <option value="Opera"></option>
+                    </select> <br>
+                    <label for="pet">Do you have a household pet?</label>
+                    <input type="checkbox" id="pet" name="pet"><br>
+                    <label for="feedback">List places you have lived</label>
+                    <textarea id="feedback" name="feedback" rows="4" placeholder="Stillwater Florida, Amsterdam Netherlands, Timbktu Mali"></textarea>
+                </fieldset>
+                <button>Submit Poll</button>
+            </form>
+        </main>
+        <footer>
+            <p>©2025 | HTML form-User Policy | Michael Mwidete</p>
+        </footer>
+    </body>
+</html>
