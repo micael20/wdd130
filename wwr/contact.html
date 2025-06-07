@@ -27,13 +27,13 @@
         <main>
             <section class="contact-section">
                 <div class="info">
-                <h2>Contact Us</h2>
+                <h1>Contact Us</h1>
                 <p>📍  Plot No. 18, Mloka Village, Rufiji District, Lindi Region, Near Nyerere National Park Gate, P.O. Box 10345, Rufiji, Tanzania</p>
                 <p>✉️   info@rufijirafting.co.tz</p>    
                 <p>📞  +255 712 345 678</p>
                 </div>
                 <div class="map-container">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d174511.63298380066!2d38.3191870858052!3d-7.902573686243208!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x18590116024f8beb%3A0xaf5bd4180322e2c0!2sRufiji%20River!5e0!3m2!1sen!2stz!4v1749214958005!5m2!1sen!2stz" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <iframe class="google-map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d174511.63298380066!2d38.3191870858052!3d-7.902573686243208!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x18590116024f8beb%3A0xaf5bd4180322e2c0!2sRufiji%20River!5e0!3m2!1sen!2stz!4v1749214958005!5m2!1sen!2stz" width="600" height="450" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
             </section>
             <section>
@@ -41,15 +41,15 @@
                 <h2>Staff</h2>
                 </div>
                 <div class="staff-1">
-                <img src="images/photo-10.jpg" alt="Happy staff" width="200px">
+                <img src="images/photo-10.jpg" alt="Happy staff" width="200">
                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. A voluptas odit nesciunt ad, dolor impedit facilis. Laborum expedita, consectetur error esse a veniam quae, enim perferendis magni quo sequi! Expedita!</p>
                 </div>
                 <div class="staff-2">
-                <img src="images/photo-8.jpg" alt="Happy staff 2" width="200px">
+                <img src="images/photo-8.jpg" alt="Happy staff 2" width="200">
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem, sequi odit sit magni corrupti perspiciatis facilis culpa odio distinctio nisi dignissimos consectetur iusto quia minus nam? Placeat nisi voluptate hic?</p>
                 </div>
                 <div class="staff-3">
-                <img src="images/photo-9.jpg" alt="Happy Staff 3" width="200px">
+                <img src="images/photo-9.jpg" alt="Happy Staff 3" width="200">
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum laudantium in voluptatem nesciunt ad ea, rerum labore a praesentium ab! Quia laborum cupiditate unde praesentium voluptas doloremque consequatur totam ducimus?</p>
                 </div>
             </section>
@@ -73,9 +73,14 @@
                 <fieldset>
                   <legend>Purpose of the Message</legend>
                   <div class="form-row radio-row">
-                    <label><input type="radio" name="purpose" value="general_inquiry" required> General Inquiry</label>
-                    <label><input type="radio" name="purpose" value="reservation_questions"> Reservation Questions</label>
-                    <label><input type="radio" name="purpose" value="website_suggestion"> Website Suggestion</label>
+                    <input type="radio" id="general_inquiry" name="purpose" value="general_inquiry" required>
+                    <label for="general_inquiry">General Inquiry</label>
+
+                    <input type="radio" id="reservation_questions" name="purpose" value="reservation_questions">
+                    <label for="reservation_questions">Reservation Questions</label>
+
+                    <input type="radio" id="website_suggestion" name="purpose" value="website_suggestion">
+                    <label for="website_suggestion">Website Suggestion</label>
                   </div>
                   <div class="form-row full-width">
                     <label for="message">Your Message</label>
@@ -91,12 +96,13 @@
                 <button type="submit">Send Message</button>
               </form>
             </section>
+          </main>
         <footer>
             <nav class="socialmedia">
                 <p>©2025 | Whitewater Rafting Company | Michael Mwidete</p>
                 <a href="https://www.instagram.com"><img src="images/instagram.png" alt="Instagram"></a>
                 <a href="https://www.facebook.com"><img src="images/facebook-icon.png" alt="facebook"></a>
-                <a href="https/www.Whatsapp.com"> <img src="images/whatsapp-icon.png" alt="Whatsapp"></a>
+                <a href="https://www.Whatsapp.com"> <img src="images/whatsapp-icon.png" alt="Whatsapp"></a>
             </nav>
         </footer>
     </body>
