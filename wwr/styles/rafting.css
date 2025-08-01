@@ -424,14 +424,15 @@
   font-family: var(--body-font);
   color: var(--accent1-color);
   }
+
   .newsletter button {
-  background: var(--primary-color);
-  color: var(--accent2-color);
-  border: none;
-  padding: 0.6rem;
-  border-radius: 4px;
-  cursor: pointer;
-  font-family: var(--heading-font);
+    background-color: #004db0;  /* #009DB0 */
+    color:            var(--accent2-color);  /* #FFFFFF */
+    border:           none;
+    padding:          0.6rem 1rem;
+    border-radius:    4px;
+    font-family:      var(--heading-font);
+    cursor:           pointer;
   }
   
   /* RESPONSIVE: stack on small screens */
@@ -555,16 +556,19 @@
 }
 .trip-table th,
 .trip-table td {
-  border: 1px solid #ccc;
+  border: 1px solid #cccccc;
   padding: 0.75rem 1rem;
+  opacity: 5;
 }
 .trip-table th {
-  background: var(--secondary-color);
+  background: #c63f2b;
   color: var(--accent2-color);
 }
 .trip-table tbody tr:nth-child(even) {
   background: #f9f9f9;
 }
+
+
 
 .wireframe-link {
   text-align: center;
